@@ -1,0 +1,87 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
+    #section-plain{
+        width: 100%;
+        height: 800px;
+        background-image: url('./assets/bg-plain.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        font-family: 'SF Pro Display', sans-serif;
+        padding-top: 20px;
+    }
+
+    #section-plain .bbt{
+    padding: 12px 40px;
+    border-radius: 24px;
+    background-color: #0048D5;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'SF Pro Display', sans-serif;
+    margin-bottom: 12px;
+}
+#section-plain  .title{
+    font-size: 24px;
+    font-weight: 600;
+}
+#section-plain  .text{
+ max-width: 52vw;
+ text-align: center;
+ font-size: 18px;
+ font-weight: 500;
+ letter-spacing: 0.3px;
+ margin: 4px 0;
+}
+
+/* Responsive MQ */
+@media screen and (max-width: 768px) {
+    #section-plain{
+        width: 100%;
+        height: 840px;
+        background-image: url('./assets/bg-plain.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        font-family: 'SF Pro Display', sans-serif;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+
+#section-plain  .text{
+ max-width: 92vw;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 500;
+ letter-spacing: 0.3px;
+ margin: 4px 0;
+}
+}
+</style>
+<section id="section-plain">
+            <!-- Bouton -->
+            <a href="#"><button class="bbt">Tout savoir sur notre acrylique</button></a>
+            <!-- titre -->
+            <h1 class="title">
+            99,9% Anti Ultraviolets
+            </h1>
+            <!-- paragraphe -->
+            <p class="text">
+                Protection maximale contre les rayons ultraviolets présents au quotidien, que ce soit la lumière du soleil ou la lumière artificielle cela permet de conserver les couleurs de vos coffrets.
+            </p>
+        </div>
+</section>
